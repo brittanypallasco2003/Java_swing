@@ -15,3 +15,7 @@ interfaces gráficas con java
 ## Interfaz del form
 ![image](https://github.com/brittanypallasco2003/Java_swing/assets/117743650/1bb3bab6-b796-4400-9862-245682f35ec2)
 
+## Ventana con boton funcional que muestra los datos ingresados al capturarlos
+![image](https://github.com/brittanypallasco2003/Java_swing/assets/117743650/481efbfb-3053-45b2-92fc-47b57eed223c)
+
+

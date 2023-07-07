@@ -1,3 +1,5 @@
+package interfaz_por_cod;
+
 import javax.swing.*;
 import java.awt.*;
 

@@ -11,6 +11,7 @@ public class MainVentanaPrincipal {
 
         /*Llamar a una ventana. Al instanciar un objeto de la  clase JFrame*/
         JFrame frame = new JFrame();
+        frame.setSize(500,500);
         /*Objeto miVentanaPrincipal de la clase VentanaPrincipal*/
         VentanaPrincipal miVentanaPrincipal = new VentanaPrincipal();
 
@@ -37,8 +38,9 @@ public class MainVentanaPrincipal {
                                                                1. se crea el objeto de la clase HolaMundo
                                                                2. se le indica el atributo al obejeto tipo ventana el atributo "rootPanel"
         */
-
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);//NO OLVIDAR EL METODO QUE HACE VISIBLE LA VENTANA
+
 
     }
 }

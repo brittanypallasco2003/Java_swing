@@ -14,7 +14,7 @@ public class VentanaInputsMain {
         /*Llamar a una ventana. Al instanciar un objeto de la  clase JFrame*/
         JFrame frame = new JFrame();
         frame.setSize(500,500);
-
+//
         frame.setContentPane(new Ventana_inputs().getRootPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);//NO OLVIDAR EL METODO QUE HACE VISIBLE LA VENTANA

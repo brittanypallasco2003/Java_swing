@@ -14,6 +14,8 @@ public class VentanaPrincipal {
     private JLabel ingreseUsuarioLabel;
     private JTextField textField1;
     private JPasswordField passwordField1;
+    private JCheckBox seePassowrdCheckBox;
+    private JButton ingresarboton;
 
     /*NOTA: TODOS ESTOS atributos son de tipo privado NO SE PUEDE ACCEDER
      A ELLOS DIRECTAMENTE por el MAINVENTANAPRINCIPAL*/
@@ -44,6 +46,13 @@ public class VentanaPrincipal {
                 String nombreUsuario = inputNombreUsuario.getText();//llamamos al elemento text field de la interfaz grafica seguido del getText-->se OBTIENE LO QUE INGRESA el usuario, y se guarda en una variable
                 String mensajeBienvenida="Bienvenido"+nombreUsuario+" ! :)";
                 mensajeLabelUsuario.setText(mensajeBienvenida);//seteamos el texto que se muestra como label para que se muestre en la ventana
+            }
+        });
+        ingresarboton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String usuario=textField1.getText();
+                String password=String.valueOf(passwordField1.getPassword());
             }
         });
     }

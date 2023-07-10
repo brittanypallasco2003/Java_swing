@@ -61,6 +61,10 @@ public class VentanaPrincipal {
                 String password=String.valueOf(passwordField1.getPassword());
                 if(usuario.equals("bri")&& password.equals("123")){
                     JOptionPane.showMessageDialog(null,"Usuario Identificado");
+                    //llamar a la ventana secundaria--INSTANCIANDO A LA CLASE VentanaSecundaria
+                    VentanaSecundaria dialog = new VentanaSecundaria();
+                    dialog.setSize(500, 500);
+                    dialog.setVisible(true);
                 }else {
                     JOptionPane.showMessageDialog(null,"Error en usuario y clave");
                 }
